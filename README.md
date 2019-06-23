@@ -1,27 +1,41 @@
 # Timepicker
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.4.
+Simple lightwieght timepicker for Angular Material 7.2+
 
-## Development server
+## Prerequisites
+1. Angular 7.2+
+2. Angular Material 7.3+
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Demo
+Coming soon...
 
-## Code scaffolding
+## Getting started
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Install timepicker through npm:
+```angular2html
+npm install --save ngmat-timepicker
+```
+Next import the timepicker module into your app's module:
+```typescript
+import { NgModule } from '@angular/core';
+import { TimepickerModule } from 'ngmat-timepicker';
 
-## Build
+@NgModule({
+  imports: [TimepickerModule]
+})
+export class AppModule {}
+```
+Finally connect the timepicker to an input via a template property:
+```angular2html
+<ngmat-timepicker [(time)]="myTime"></ngmat-timepicker>
+```
+In your *component.ts*
+```typescript
+export class AppComponent {
+    myTime='14:30';
+}
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## License
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+MIT

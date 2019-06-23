@@ -1,0 +1,37 @@
+.timepicker {
+    width: 50px;
+    display: inline-flex;
+}
+
+.separator {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 42px;
+    font-size: 24px;
+    max-height: 82px;
+}
+
+.separator span {
+    margin-top: auto;
+}
+
+.input-field {
+    text-align: center;
+}
+
+/deep/ .input-field mat-form-field {
+    width: 52px;
+    text-align: center;
+    height: 30px;
+}
+
+/deep/ .input-field .mat-form-field-infix {
+    border: 1px solid white;
+    border-radius: .25rem;
+}
+
+.time-clicker {
+    height: 36px;
+    line-height: 36px;
+    margin-top: 6px; 
+}

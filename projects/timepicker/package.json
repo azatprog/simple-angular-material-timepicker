@@ -1,0 +1,28 @@
+{
+  "name": "ngmat-timepicker",
+  "version": "1.0.1",
+  "license": "MIT",
+  "author": "Azat Nobatov <azatprog@gmail.com>",
+  "keywords": [
+      "angular",
+      "angular 2",
+      "angular 4",
+      "angular 5",
+      "angular 6",
+      "angular 7",
+      "angular 8",
+      "material design",
+      "timepicker",
+      "material timepicker",
+      "ngmat timepicker",
+      "angular timepicker",
+      "angular material timepicker"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^7.2.0",
+    "@angular/core": "^7.2.0",
+    "@angular/material": "^7.3.2",
+    "@angular/forms": "^7.2.0",
+    "@angular/platform-browser": "^7.2.0"
+  }
+}
