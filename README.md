@@ -7,7 +7,7 @@ Simple lightwieght timepicker for Angular Material 7.2+
 2. Angular Material 7.3+
 
 ## Demo
-Coming soon...
+https://azatprog.dev/demos/timepicker
 
 ## Getting started
 

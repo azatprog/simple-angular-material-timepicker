@@ -6,9 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'timepicker-tester';
   time = '13:00';
-  console() {
-    console.log(this.time);
-  }
 }
