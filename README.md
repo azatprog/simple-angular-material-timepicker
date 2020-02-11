@@ -9,8 +9,8 @@ Simple lightwieght timepicker for Angular Material 7.2+
 ## Demo
 https://azatprog.dev/demos/timepicker
 
-## Git Repo
-https://github.com/azatprog/simple-angular-material-timepicker
+## npm
+https://www.npmjs.com/package/ngmat-timepicker
 
 ## Getting started
 
